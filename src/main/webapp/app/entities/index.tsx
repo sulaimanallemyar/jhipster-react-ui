@@ -11,11 +11,6 @@ import ErrorBoundary from 'app/shared/error/error-boundary';
 import AppComponent from 'app/app';
 import { loadIcons } from 'app/config/icon-loader';
 
-import 'primereact/resources/primereact.min.css';
-
-//theme
-import 'primereact/resources/themes/lara-light-indigo/theme.css';
-
 const store = getStore();
 registerLocale(store);
 

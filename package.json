@@ -45,8 +45,10 @@
     "axios": "0.27.2",
     "bootstrap": "5.2.0",
     "dayjs": "1.11.5",
+    "formik": "^2.2.9",
     "lodash": "4.17.21",
     "path-browserify": "1.0.1",
+    "primereact": "^9.6.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-hook-form": "7.30.0",
@@ -62,7 +64,8 @@
     "redux-thunk": "2.4.1",
     "sonar-scanner": "3.1.0",
     "tslib": "2.4.0",
-    "uuid": "8.3.2"
+    "uuid": "8.3.2",
+    "yup": "^0.32.9"
   },
   "devDependencies": {
     "@testing-library/react": "13.3.0",

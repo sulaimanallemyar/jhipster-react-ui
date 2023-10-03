@@ -31,3 +31,14 @@ export const Home = () => (
     </NavLink>
   </NavItem>
 );
+
+export const AccountPage = () => (
+  <NavItem>
+    <NavLink tag={Link} to="/acc-accounts" className="d-flex align-items-center">
+      <span>
+        Customers
+        {/* <Translate contentKey="global.menu.home">Home</Translate> */}
+      </span>
+    </NavLink>
+  </NavItem>
+);

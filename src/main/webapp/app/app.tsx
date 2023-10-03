@@ -1,6 +1,6 @@
 import 'react-toastify/dist/ReactToastify.css';
 import './app.scss';
-import 'app/config/dayjs.ts';
+// import 'app/config/dayjs.ts';
 
 import React, { useEffect } from 'react';
 import { Card } from 'reactstrap';
@@ -24,8 +24,8 @@ export const App = () => {
   const dispatch = useAppDispatch();
 
   useEffect(() => {
-    dispatch(getSession());
-    dispatch(getProfile());
+    // dispatch(getSession());
+    // dispatch(getProfile());
   }, []);
 
   const currentLocale = useAppSelector(state => state.locale.currentLocale);
